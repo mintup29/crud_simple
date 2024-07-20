@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f3e5e5; /* Warna latar belakang body */
+}
+
+.header {
+    background-color: #f06292; /* Warna background header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fce4ec; /* Warna background konten */
+    flex: 1;
+}
+
+.footer {
+    background-color: #f06292; /* Warna background footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ffb6c1; /* Warna border tabel */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8bbd0; /* Warna background header tabel */
+}
+
+form {
+    background-color: #ffffff; /* Warna background form */
+    padding: 20px;
+    border: 1px solid #ffcdd2; /* Warna border form */
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ffcdd2; /* Warna border input */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #f06292; /* Warna background tombol submit */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ec407a; /* Warna background tombol submit saat hover */
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.column-1 {
+    flex: 30%;
+    padding: 30px;
+    background-color: #ffb6c1; /* Warna background kolom 1 */
+    box-sizing: border-box;
+}
+
+.column-2 {
+    flex: 70%;
+    padding: 30px;
+    background-color: #fce4ec; /* Warna background kolom 2 */
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ffb6c1; /* Warna teks h1 */
+}
+
+button, input[type="submit"] {
+    background-color: #f06292; /* Warna background tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Membuat sudut tombol membulat */
+    cursor: pointer; /* Mengubah cursor menjadi pointer saat hover */
+    font-size: 16px; /* Ukuran font pada tombol */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animasi transisi */
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #ec407a; /* Warna latar belakang saat hover */
+    transform: scale(1.05); /* Membesarkan tombol sedikit saat hover */
+}
+
+button:active, input[type="submit"]:active {
+    background-color: #ad1457; /* Warna latar belakang saat tombol ditekan */
+    transform: scale(0.95); /* Mengecilkan tombol sedikit saat ditekan */
+}
+
+button:focus, input[type="submit"]:focus {
+    outline: none; /* Menghilangkan outline saat tombol fokus */
+    box-shadow: 0 0 0 3px rgba(240, 98, 146, 0.5); /* Menambahkan shadow fokus */
+}

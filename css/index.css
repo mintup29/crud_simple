@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffb6c1, #ffcccb, #f8bbd0); /* Gradient warna pastel pink */
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    background: #ffffff; /* Warna background login box */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: #333;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox label {
+    font-size: 16px;
+    color: #333;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    background: #f8bbd0; /* Warna background input */
+    border: 1px solid #ffb6c1; /* Warna border input */
+    outline: none;
+    color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    background: #f06292; /* Warna background tombol */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ec407a; /* Warna background tombol saat hover */
+}
+
+p {
+    color: #ff1744; /* Warna teks paragraf */
+    font-size: 14px;
+}
