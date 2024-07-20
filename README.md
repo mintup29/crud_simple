@@ -16,7 +16,7 @@
 Clone the project repository from GitHub (or wherever it’s hosted) to the new device.
 
 ```bash
-https://github.com/mintup29/crud_simple.git
+git clone https://github.com/mintup29/crud_simple.git
 ```
 
 ### 3. **Install Dependencies**
