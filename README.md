@@ -19,7 +19,14 @@ Clone the project repository from GitHub (or wherever it’s hosted) to the new 
 git clone https://github.com/mintup29/crud_simple.git
 ```
 
-### 3. **Install Dependencies**
+### 3. Navigate to the Project Directory**
+Change into the project directory:
+
+```bash
+cd crud_simple
+```
+
+### 4. **Install Dependencies**
 
 Run the following command to install all dependencies listed in the `package.json` file:
 
