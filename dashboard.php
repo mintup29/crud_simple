@@ -73,7 +73,7 @@ $medications_count = $conn->query("SELECT COUNT(*) AS count FROM medications")->
                     <div class="col-lg-3 col-6">
                         <div class="small-box bg-danger">
                             <div class="inner">
-                                <h3><?php echo $appointments_count; ?></h3>
+                                <h3><?php echo $medications_count; ?></h3>
                                 <p>Medications</p>
                             </div>
                             <div class="icon">
